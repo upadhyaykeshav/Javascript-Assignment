@@ -1,0 +1,39 @@
+1. What is the value of y after evaluating the expression given below?
+      y+=++y + y-- + --y; when let y=8
+Answer-  let y=8;
+         y+=++y + y-- + --y;
+         console.log(y)
+         output is 33 in number form.
+--------------------------------------------------------------------------
+2. Give the output of the following expression:
+      a+=a++ + ++a + --a + a--; when a=7
+
+ Answer- let a=7;
+         b= a+=a++ + ++a + --a + a--;
+         console.log(b)
+         output is 39 in number form.
+--------------------------------------------------------------------------
+3. If let y=10 then find:
+     z=(++y * (y++ +5));
+
+Answer-  let y=10;
+         z=(++y * (y++ +5));
+         console.log(z)
+
+         output is 176 in number form.
+--------------------------------------------------------------------------
+5. Name the operators listed below:
+    i. <    ii.  ++   iii. &&   iv. ?:
+    i.  < is Less Than is Relational operator
+    ii. ++ is Increment arithmatic operator
+    iii. && is Logical operator
+    iv.  ?: is conditional operator
+---------------------------------------------------------------------------
+8. State the difference between = =and = ==.
+
+   ->    === is a strict equality operator.
+         it checks wheather its two operands are equal or not
+         it will give a boolean results
+   ->    == is allow implicit type conversion
+         in javascript it will automatically convert string data type to number.
+---------------------------------------------------------------------------------
